@@ -1,0 +1,43 @@
+@import url('httpsS//fonts.googlepis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+#menu a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #6cb6f4;
+    
+}
+.carousel-inner{
+    maz-height: 39rem;
+    
+}
+.head-label{
+    align-content: center;
+}
+@media (max-width: 30em){
+    table{
+        width: 100%;
+        font-size: .9em;
+    }
+    table td,table th{
+        border: none;
+    }
+    table tr{
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        margin-bottom: 1em;
+    }
+    table td[data_titulo]::before{
+        content:attr(data_titulo);
+        with: 90px;
+        color:#88d498;
+        font-weight: bold;
+    }
+    table thead{
+        display: none;
+    }
+}
